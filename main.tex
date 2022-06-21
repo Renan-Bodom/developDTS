@@ -1,0 +1,36 @@
+\documentclass[
+    11pt,
+    a4paper,
+    english,
+    brazil
+    ]{article}
+
+\usepackage[utf8]{inputenc} %Colocar acento
+\usepackage[T1]{fontenc}    %Saída boa para impressora
+\usepackage{indentfirst}    %Coloca espaço no primeiro paragrafo
+\usepackage[brazil]{babel}  %Trata o texto como português
+\usepackage[top=1cm, left=2cm, right=1.5cm, bottom=1.5cm]{geometry} %Arruma borda
+\usepackage{graphicx}   %Pacote gerencia imagem
+\usepackage{float}      %pacote que força o local de figuras, tabelas, etc.
+\usepackage{xcolor}     %pacote de cores
+\usepackage{lmodern}    % Usa a fonte Latin Modern	
+\usepackage{hyperref}   %Link itens no texto
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+
+
+\title{Instruções para elaborar uma estratégia de transformação digital}
+\author{Elaborado por Renan da Silva Marques (UFABC)/2022}
+\date{}
+
+\pagenumbering{empty} %Remover números das páginas
+
+\begin{document}
+\maketitle
+
+\input{instrucoes}
+
+\include{extras}
+
+\end{document}
